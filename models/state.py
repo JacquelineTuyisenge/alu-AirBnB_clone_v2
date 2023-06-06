@@ -11,7 +11,7 @@ import models
 
 class State(BaseModel, Base):
     """ State class """
-    __tablename__ = 'states'
+    __tablename__ = 'hbnb_dev_db.states'
 
     name = Column(String(128), nullable=False)
 
