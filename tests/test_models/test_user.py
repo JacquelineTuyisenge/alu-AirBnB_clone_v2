@@ -34,5 +34,5 @@ class test_User(test_basemodel):
     def test_password(self):
         """ """
         new = self.value()
-        new.password = "G343sD6"
+        new.password = "12345j"
         self.assertEqual(type(new.password), str)
